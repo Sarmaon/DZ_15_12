@@ -13,6 +13,6 @@ Console.WriteLine("Введите второе число ");
  if (max < number1)
  max = number1;
 
- else if (max < number2)
+ if (max < number2)
  max = number2;
 Console.WriteLine($"Максимальное число {max}");
